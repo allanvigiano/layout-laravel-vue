@@ -22,11 +22,14 @@
 </head>
 <body>
 <div id="app">
-    <header-navbar-component></header-navbar-component>
+    
 
     <main class="py-4">
-    @yield('content')
-</main>
+        @yield('header')
+        @yield('content')
+        @yield('sidebar')
+        @yield('footer')
+    </main>
 </div>
 </body>
 </html>

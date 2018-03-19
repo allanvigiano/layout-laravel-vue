@@ -47307,7 +47307,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    I'm an example component.\n                "
+                "\n                    I'm an example component. asdf asd \n                "
               )
             ])
           ])
@@ -47819,7 +47819,8 @@ var staticRenderFns = [
               }
             },
             [_c("span", { staticClass: "navbar-toggler-icon" })]
-          )
+          ),
+          _vm._v("\ntestes\n        \n    ")
         ])
       ]
     )
