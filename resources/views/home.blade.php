@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@exeção de conhecimentos introdutórios desta disciplintends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <example-component></example-component>
                     You are logged in!
                 </div>
             </div>
