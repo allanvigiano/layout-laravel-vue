@@ -23,13 +23,17 @@
 <body>
 <div id="app">
     
-
-    <main class="py-4">
-        @yield('header')
+    <header>
+        @yield('header-navbar')
+    </header>
+    <main role="main" style="margin-top: 55px;">
+        @yield('header-carousel')
         @yield('content')
         @yield('sidebar')
         @yield('footer')
     </main>
+        
+
 </div>
 </body>
 </html>
