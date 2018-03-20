@@ -18,6 +18,9 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('header-navbar-component', require('./components/HeaderNavbar.vue'));
 Vue.component('header-carousel-component', require('./components/HeaderCarousel.vue'));
+Vue.component('content-component', require('./components/Content.vue'));
+Vue.component('sidebar-component', require('./components/Sidebar.vue'));
+Vue.component('footer-component', require('./components/Footer.vue'));
 
 const app = new Vue({
     el: '#app'

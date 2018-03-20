@@ -9,13 +9,13 @@
 @endsection
 
 @section('content')
-Content
+<content-component></content-component>
 @endsection
 
 @section('sidebar')
-Sidebar
+<sidebar-component></sidebar-component>
 @endsection
 
 @section('footer')
-Footer
+<footer-component></footer-component>
 @endsection

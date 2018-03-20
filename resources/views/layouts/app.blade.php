@@ -26,10 +26,19 @@
     <header>
         @yield('header-navbar')
     </header>
-    <main role="main" style="margin-top: 55px;">
+    <main role="main" style="margin-top: 54px;">
         @yield('header-carousel')
-        @yield('content')
-        @yield('sidebar')
+
+        <div class="row mt-5">
+            <div class="col-sm-8 pr-3 border-right border-secondary">
+                @yield('content')
+            </div>
+            <div class="col-sm-4 pl-3">
+                @yield('sidebar')
+            </div>
+        </div>
+        
+        
         @yield('footer')
     </main>
         
