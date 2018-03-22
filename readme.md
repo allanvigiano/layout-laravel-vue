@@ -1,4 +1,4 @@
-## About Layout-laravel
+# Layout Laravel Vue
 
 Este é um projeto inicial para um site em Laravel e Vue.js que necessite de um layout parecido com o disponível no Wordpress. Isso quer dizer que o site terá basicamente 4 sessões:
 1. Header
@@ -41,7 +41,7 @@ Será utilizado Laravel e Vue.js
 
     `npm run watch-poll`
 
-#
+
 ## <a name="serve-env">Artisan serve env</a>
 O comando `php artisan serve:env` foi criado para facilitar a execução do servidor Laravel durante o desenvolvimento. Muitas vezes a porta e host padrão do Laravel já está sendo utilizada por outro projeto e você precisa adicionar parâmetros ao servidor (algo como ` php artisan serve --host=0.0.0.0 --port=8081`).
 
